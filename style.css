@@ -1,0 +1,55 @@
+body,
+html {
+  /*Setting width and height to 100% is good to have, so the body in HTML covers 100% of the screen*/
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*We want to be able to see our h1, so we give it its own style*/
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  /*border-radius to make edges more circular*/
+  border-radius: 300px;
+  /*This will make the text of our button uppercase*/
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {
+  /*1 rem on the sides, and 2 rem top & bottom*/
+  padding: 1rem 2rem;
+}
+
